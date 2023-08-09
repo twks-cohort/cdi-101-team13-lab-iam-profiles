@@ -13,7 +13,7 @@
 </div>
 
 This iam-profiles pipeline implements a secure, single platform team identity pattern that is assumed to be part of a broader product-centered identity architecture.  
-
+##--##
 While the number of team-bounded domains in a delivery infrastructure platform will likely grow from just one (depending on the number of development teams using the platform), a essential pattern for securing the permission boundary for _Users_ of the product involves seprating such user's identity, and authentication and authorization events, from the underlying IaaS providers native infrastructure identity.  
 
 You see this pattern repeated across the SaaS and mobile marketplace. You are experiencing it right now as you read this file on github.com. As many people are aware, github.com is hosted on rackspace.com. Since being purchased by Microsoft, many new features are being hosted on Azure. When you use those new hosted GitHub Runners, you are not personally working from an Azure identity. You created a discrete github identity (or perhaps it was created for you through your organizational SSO integration with github). Github services use this _constomer identity_ to manage the data and services to which individual users have access.  
